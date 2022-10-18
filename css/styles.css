@@ -1,0 +1,66 @@
+* {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+body {
+    background-color: #ff0000;
+    background-image: url(../images/headroll.gif);
+}
+
+nav > ul {
+    background-color: #000000;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    padding: .5em;
+
+}
+nav > ul > li {
+    list-style-type: none;
+    padding: .5em;
+}
+a {
+    color: #b7ff00;
+    text-decoration: none;
+}
+main {
+    background-color: #fff;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+
+    
+}
+#bike {
+    background-image: url(../images/car.gif);
+    background-size: contain;
+    background-position: center;
+}
+
+#dog {
+    background-image: url(../images/cloflip.gif);
+}
+
+#dog main {
+    background-color: rgb(255, 172, 218);
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+#dog main h1 {
+    background-color: fuchsia;
+    color: #000;
+}
+h1 {
+    background-color: pink;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+}
